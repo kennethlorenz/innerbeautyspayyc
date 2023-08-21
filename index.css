@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* sets base font size to 10px */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+/* Global styles */
+a {
+  text-decoration: none;
+  color: #695125;
+}
+
+/* Set background color */
+header {
+  background: #efe3b8;
+}
+
+/* Header style */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  padding: 8rem 0;
+  padding-right: 10rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  font-size: 2rem;
+  gap: 7rem;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  padding: 1.5rem;
+}
+
+/* menu */
+.menuIcon {
+  display: none;
+  width: 10rem;
+}
