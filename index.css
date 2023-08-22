@@ -28,9 +28,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 2rem;
+  height: 5vh;
   padding: 8rem 0;
-  padding-right: 10rem;
+  padding-right: 5rem;
 }
 
 .brand {
@@ -45,7 +45,7 @@ nav {
 ul {
   display: flex;
   font-size: 2rem;
-  gap: 7rem;
+  gap: 2.5rem;
   list-style: none;
   align-items: center;
 }
@@ -58,4 +58,45 @@ li {
 .menuIcon {
   display: none;
   width: 10rem;
+}
+
+/* Hero Section */
+
+.hero,
+button {
+  color: #efe3b8;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 85vh;
+  background-image: url(./images/hero-bg.png);
+  background-size: cover;
+  gap: 5rem;
+}
+
+.heroTag {
+  font-size: 15rem;
+}
+
+span {
+  font-style: italic;
+}
+
+button {
+  background: none;
+  padding: 2.5em 5em;
+  border-color: #efe3b8;
+  border: solid 2px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 1s;
+  padding: 2em 8em;
+}
+
+button:hover {
+  background: #695125;
 }
