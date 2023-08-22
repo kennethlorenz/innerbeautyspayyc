@@ -50,8 +50,12 @@ ul {
   align-items: center;
 }
 
-li {
-  padding: 1.5rem;
+a {
+  padding: 2.5rem;
+}
+a:hover {
+  background-color: #695125;
+  color: #efe3b8;
 }
 
 /* menu */
