@@ -33,6 +33,13 @@ a {
   color: #695125;
 }
 
+.section {
+  height: 85vh;
+}
+
+.heading {
+  font-size: 7.5rem;
+}
 /* Set background color */
 header {
   background: #efe3b8;
@@ -91,7 +98,6 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 85vh;
   background-image: url(./images/hero-bg.png);
   background-size: cover;
   gap: 5rem;
@@ -119,4 +125,33 @@ button {
 
 button:hover {
   background: #695125;
+}
+
+/* About us section */
+
+.section.about-us {
+  display: flex;
+  background-color: #b89e6f;
+  color: #fffcf0;
+  justify-content: space-around;
+  padding: 0 5rem;
+}
+
+.about-us.info {
+  width: 70rem;
+}
+
+.about-us.info,
+.about-us.img {
+  padding: 20rem 0;
+}
+
+.about-us.text {
+  font-size: 2.5rem;
+  margin-top: 5rem;
+}
+
+.about-us img {
+  height: auto;
+  width: 50rem;
 }
