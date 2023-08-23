@@ -36,8 +36,9 @@ a {
   color: #695125;
 }
 
+/* set height for each section */
 .section {
-  height: 85vh;
+  height: auto;
   padding: 20rem;
 }
 
@@ -55,7 +56,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5vh;
+  height: 20rem;
   padding: 8rem 0;
   padding-right: 5rem;
 }
@@ -139,7 +140,6 @@ button:hover {
   color: #fffcf0;
   justify-content: space-around;
   padding: 0 5rem;
-  height: auto;
 }
 
 .about-us.info {
@@ -166,21 +166,25 @@ button:hover {
 .section.our-services {
   display: flex;
   background-color: #efe3b8;
-  height: auto;
   justify-content: center;
   align-items: center;
   color: #695125;
   flex-direction: column;
+  text-align: center;
 }
 
 .our-services-categories {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.our-services.card {
+.our-services-logo img {
+  height: auto;
+  width: 45rem;
 }
+
 .our-services.category {
   font-size: 3rem;
 }
