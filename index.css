@@ -11,6 +11,22 @@ html {
   margin: 0;
 }
 
+/* Set Font */
+
+/* monsterrat font*/
+.nav-link.monsterrat {
+  font-family: "Monsterrat", sans-serif;
+}
+
+/* playfair font - replaces LOVELACE font*/
+.heroTag.playFair {
+  font-family: "Playfair Display", serif;
+}
+
+/* raleway font - replaces TT DRUGS font*/
+button.raleway {
+  font-family: "Raleway", sans-serif;
+}
 /* Global styles */
 a {
   text-decoration: none;
