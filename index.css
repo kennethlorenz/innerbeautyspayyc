@@ -9,6 +9,7 @@ html {
 *:after {
   box-sizing: inherit;
   margin: 0;
+  padding: 0;
 }
 
 /* Set Font */
@@ -19,12 +20,14 @@ html {
 }
 
 /* playfair font - replaces LOVELACE font*/
-.heroTag.playFair {
+.heroTag.playFair,
+.heading.playFair {
   font-family: "Playfair Display", serif;
 }
 
 /* raleway font - replaces TT DRUGS font*/
-button.raleway {
+button.raleway,
+.our-services.card.raleway {
   font-family: "Raleway", sans-serif;
 }
 /* Global styles */
@@ -35,6 +38,7 @@ a {
 
 .section {
   height: 85vh;
+  padding: 20rem;
 }
 
 .heading {
@@ -135,6 +139,7 @@ button:hover {
   color: #fffcf0;
   justify-content: space-around;
   padding: 0 5rem;
+  height: auto;
 }
 
 .about-us.info {
@@ -154,4 +159,34 @@ button:hover {
 .about-us img {
   height: auto;
   width: 50rem;
+}
+
+/* Our services */
+
+.section.our-services {
+  display: flex;
+  background-color: #efe3b8;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  color: #695125;
+  flex-direction: column;
+}
+
+.our-services-categories {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.our-services.card {
+}
+.our-services.category {
+  font-size: 3rem;
+}
+
+.our-services.text {
+  font-size: 2rem;
+  margin: 2.5rem auto;
+  width: 30rem;
 }
