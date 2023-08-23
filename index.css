@@ -211,3 +211,45 @@ button:hover {
   margin: 2.5rem auto;
   width: 30rem;
 }
+
+/* client feedback */
+.section.client-feedback {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #695125;
+  color: #efe3b8;
+}
+
+.client-feedbacks {
+  display: flex;
+  margin-top: 10rem;
+  flex-wrap: wrap;
+}
+
+.client-feedback.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  height: 25rem;
+  width: 40rem;
+  align-self: center;
+  margin: 1rem 2rem;
+  background-color: #efe3b8;
+  color: #695125;
+}
+
+.client-name {
+  font-size: 3rem;
+}
+
+.client-comment {
+  font-size: 2rem;
+}
+
+.bold {
+  font-weight: 700;
+}
