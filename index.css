@@ -50,12 +50,11 @@ ul {
   align-items: center;
 }
 
-a {
+.nav-link {
   padding: 2.5rem;
 }
-a:hover {
-  background-color: #695125;
-  color: #efe3b8;
+.nav-link:hover {
+  text-decoration: underline;
 }
 
 /* menu */
