@@ -37,7 +37,8 @@ html {
 
 /* raleway font - replaces TT DRUGS font*/
 button.raleway,
-.our-services.card.raleway {
+.our-services.card.raleway,
+.client-feedback.card.raleway {
   font-family: "Raleway", sans-serif;
 }
 /* Global styles */
