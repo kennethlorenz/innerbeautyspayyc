@@ -69,8 +69,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 20rem;
-  padding: 8rem 0;
-  padding-right: 5rem;
+  padding: 8rem 5rem;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -82,6 +81,12 @@ header {
 .brand {
   display: flex;
   align-items: center;
+}
+
+img.brandLogo {
+  height: auto;
+  width: 40rem;
+  padding: 2.5rem;
 }
 
 nav {
@@ -308,6 +313,11 @@ button:hover {
   flex-wrap: wrap;
   gap: 2rem;
   font-size: 1.8rem;
+  color: #efe3b8;
+}
+
+.contact-info.card.hover :hover {
+  text-decoration: underline;
 }
 
 .contact-info.card img {

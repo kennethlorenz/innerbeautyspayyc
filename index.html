@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
+    s
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap"
       rel="stylesheet"
@@ -23,22 +24,34 @@
   <body>
     <div class="container">
       <header>
-        <div class="brand">
-          <div>
-            <img
-              class="brandLogo"
-              src="./images/brand-logo.svg"
-              alt="Inner Beauty Spa logo"
-            />
+        <a href="./index.html">
+          <div class="brand">
+            <div>
+              <img
+                class="brandLogo"
+                src="./images/innerbeautyspalogo.png"
+                alt="Inner Beauty Spa logo"
+              />
+            </div>
           </div>
-        </div>
+        </a>
         <nav class="links">
           <ul>
-            <li><a class="nav-link monsterrat" href="">HOME</a></li>
+            <li>
+              <a href="./index.html" class="nav-link monsterrat" href=""
+                >HOME</a
+              >
+            </li>
             <li><a class="nav-link monsterrat" href="">SERVICE</a></li>
-            <li><a class="nav-link monsterrat" href="">ABOUT</a></li>
-            <li><a class="nav-link monsterrat" href="">FAQ</a></li>
-            <li><a class="nav-link monsterrat" href="">CONTACT US</a></li>
+            <li>
+              <a href="#about-us" class="nav-link monsterrat" href="">ABOUT</a>
+            </li>
+            <li><a href="#faq" class="nav-link monsterrat" href="">FAQ</a></li>
+            <li>
+              <a href="#contact-us" class="nav-link monsterrat" href=""
+                >CONTACT US</a
+              >
+            </li>
           </ul>
           <div>
             <img
@@ -53,9 +66,15 @@
         <div class="heroTag playFair">
           <p>Find your <span>bliss</span></p>
         </div>
-        <div><button class="raleway">BOOK YOUR APPOINTMENT</button></div>
+        <div>
+          <a
+            href="https://squareup.com/ca/en/appointments?device=c&gad=1&gclid=Cj0KCQjw_5unBhCMARIsACZyzS2LL0EdoHgWs3PKC_l1XImolhLN8H5Oq-FaD09JV4FfC7-uiTE1pwsaAuGdEALw_wcB&gclsrc=aw.ds&h=https%3A%2F%2Fsquareup.com%2Ft%2Fcmtp_performance%2Fsubcmtp_net_new%2Fexp_no%2Fpr_appointments%2Fd_search_brand%2Ftar_prospect%2Faud_mixed%2Fp_google%2Fcn_ca_google_search_appointments_brand_mixed_alldevice_english%2Fo_rsa3_appointments%2Fcrcopy_appointments_lp1%2Fl_ca%2Flang_en%2Fdt_alldevice%2Fgclid%3DCj0KCQjw_5unBhCMARIsACZyzS2LL0EdoHgWs3PKC_l1XImolhLN8H5Oq-FaD09JV4FfC7-uiTE1pwsaAuGdEALw_wcB%7Cpub%3DGOOGLE%7Ckw%3Dsquare%2Bappointments%7Ckwid%3Dp63233539421%7Cmatchtype%3Dp%7Cdevice%3Dc%2F%3Froute%3Dca%2Fen%2Fappointments%26gclsrc%3Daw.ds%26%2Fgclid%3DCj0KCQjw_5unBhCMARIsACZyzS2LL0EdoHgWs3PKC_l1XImolhLN8H5Oq-FaD09JV4FfC7-uiTE1pwsaAuGdEALw_wcB%7Cpub%3DGOOGLE%7Ckw%3Dsquare+appointments%7Ckwid%3Dp63233539421%7Cmatchtype%3Dp%7Cdevice%3Dc&kw=square+appointments&kwid=p63233539421&matchtype=p&pcrid=497453576844&pdv=c&pkw=square+appointments&pmt=p&pub=GOOGLE"
+            target="_blank"
+            ><button class="raleway">BOOK YOUR APPOINTMENT</button></a
+          >
+        </div>
       </div>
-      <div class="section about-us">
+      <div class="section about-us" id="about-us">
         <section class="about-us info">
           <p class="heading">About us</p>
           <p class="about-us text">
@@ -157,7 +176,7 @@
           </section>
         </div>
       </div>
-      <div class="section faq">
+      <div id="faq" class="section faq">
         <section class="heading playFair">Frequently Asked Questions</section>
         <section class="questions raleway">
           <div class="question-card">
@@ -188,7 +207,7 @@
           </div>
         </section>
       </div>
-      <div class="section contact-us">
+      <div id="contact-us" class="section contact-us">
         <section class="map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.0950615210572!2d-114.13284492340824!3d51.03286497170933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f24fdac5d81%3A0x1e3ae0b9466b3efe!2sInner%20Beauty%20Spa%20Massage%20and%20Skin%20Clinic!5e0!3m2!1sen!2sca!4v1692844191803!5m2!1sen!2sca"
@@ -212,24 +231,34 @@
                 <p class="bold">813 4 Ave SW, Calgary, AB T2P 0K4</p>
               </div>
             </div>
-            <div class="contact-info card">
-              <div>
-                <img src="./images/instagram-logo.svg" alt="instagram logo" />
+            <a
+              href="https://www.instagram.com/innerbeautyspayyc"
+              target="_blank"
+            >
+              <div class="contact-info card hover">
+                <div>
+                  <img src="./images/instagram-logo.svg" alt="instagram logo" />
+                </div>
+                <div class="contact-info text">
+                  <p>Instagram</p>
+                  <p class="bold">innerbeautyspayyc</p>
+                </div>
               </div>
-              <div class="contact-info text">
-                <p>Instagram</p>
-                <p class="bold">innerbeautyspayyc</p>
-              </div>
-            </div>
-            <div class="contact-info card">
-              <div>
-                <img src="./images/facebook-logo.svg" alt="facebook logo" />
-              </div>
-              <div class="contact-info text">
-                <p>Facebook</p>
-                <p class="bold">innerbeautyspayyc</p>
-              </div>
-            </div>
+            </a>
+            <a
+              href="https://www.facebook.com/innerbeautyspayyc/"
+              target="_blank"
+            >
+              <div class="contact-info card hover">
+                <div>
+                  <img src="./images/facebook-logo.svg" alt="facebook logo" />
+                </div>
+                <div class="contact-info text">
+                  <p>Facebook</p>
+                  <p class="bold">innerbeautyspayyc</p>
+                </div>
+              </div></a
+            >
             <div class="contact-info card">
               <div>
                 <img src="./images/phone-logo.svg" alt="phone logo" />
