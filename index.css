@@ -313,3 +313,7 @@ button:hover {
 .contact-info.card img {
   width: 4rem;
 }
+
+.contact-info.text p {
+  margin-bottom: 1rem;
+}
