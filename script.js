@@ -1,3 +1,4 @@
+// Scroll function
 const body = document.body;
 
 let lastScroll = 0;
@@ -22,3 +23,5 @@ window.addEventListener("scroll", () => {
 
   lastScroll = currentScroll;
 });
+
+document.querySelector(".currentYear").textContent = new Date().getFullYear();
