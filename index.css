@@ -36,9 +36,8 @@ html {
 }
 
 /* raleway font - replaces TT DRUGS font*/
-button.raleway,
-.our-services.card.raleway,
-.client-feedback.card.raleway {
+
+.raleway {
   font-family: "Raleway", sans-serif;
 }
 /* Global styles */
@@ -218,6 +217,7 @@ button:hover {
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: #695125;
   color: #efe3b8;
@@ -226,6 +226,8 @@ button:hover {
 .client-feedbacks {
   display: flex;
   margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -253,4 +255,29 @@ button:hover {
 
 .bold {
   font-weight: 700;
+}
+
+/* FAQ */
+
+.section.faq {
+  background-color: #efe3b8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section.faq .heading.playFair {
+}
+
+.questions {
+}
+
+.question-card {
+  background-color: #b89e6f;
+  font-size: 3rem;
+  padding: 1.5rem;
+  text-align: start;
+  margin-top: 9.5rem;
 }
