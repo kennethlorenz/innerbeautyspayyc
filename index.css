@@ -45,7 +45,7 @@ html {
   font-family: "Raleway", sans-serif;
 }
 /* Global styles */
-a {
+.a-nostyle {
   text-decoration: none;
 }
 
@@ -212,6 +212,10 @@ button:hover {
 .our-services-logo img {
   height: auto;
   width: 45rem;
+}
+
+.our-services.info {
+  color: #695125;
 }
 
 .our-services.category {
