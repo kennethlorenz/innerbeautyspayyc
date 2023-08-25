@@ -1,6 +1,7 @@
 /* You can use the SVG icons in a commercial project and you can consider giving proper credits to the author (Flowbite) and link back to the Flowbite website. Mentioning Flowbite is mandatory if the commercial product is a theme, templates, UI kit, UI component library or anything that can be considered as a direct competitor to Flowbite. */
 /* FLOWBITE COPYRIGHT ^ */
 /* FREEICONS.IO */
+/* Icon by <a href="https://freeicons.io/profile/3">icon king1</a> on <a href="https://freeicons.io">freeicons.io</a> */
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -247,12 +248,18 @@ button:hover {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  height: 25rem;
+  height: 35rem;
   width: 40rem;
   align-self: center;
   margin: 1rem 2rem;
   background-color: #efe3b8;
   color: #695125;
+  justify-content: space-between;
+}
+
+.client-feedback.card .google-logo {
+  height: auto;
+  width: 5rem;
 }
 
 .client-comment {
