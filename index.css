@@ -135,6 +135,7 @@ button {
   background-size: cover;
   gap: 5rem;
   height: 105rem;
+  padding: 2rem;
 }
 
 .heroTag {
@@ -355,4 +356,66 @@ footer {
 
 footer p {
   font-size: 1.5rem;
+}
+
+/* services.html */
+
+.filling-header {
+  height: 18.5rem;
+}
+
+.services {
+  background: #695125;
+  color: #efe3b8;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 105rem;
+  padding: 8rem;
+}
+
+.service {
+  margin-top: 3.5rem;
+}
+
+.service-card {
+  width: 60rem;
+}
+
+.service-name {
+  display: flex;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.column-container {
+  margin-left: auto;
+}
+.inline {
+  display: inline;
+}
+
+.inline.time {
+  margin: 0 1.5rem;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.services-list li {
+  display: flex;
+  margin-top: 2.5rem;
+  width: 57rem;
+}
+
+.services-list li .prices {
+  margin-left: auto;
+}
+
+.inline.price.second-column {
+  margin-left: 8rem;
 }
