@@ -364,6 +364,11 @@ footer p {
   height: 18.5rem;
 }
 
+.service-container {
+  display: flex;
+  gap: 20rem;
+}
+
 .services {
   background: #695125;
   color: #efe3b8;
@@ -371,22 +376,30 @@ footer p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 105rem;
+  height: auto;
   padding: 8rem;
+  flex-wrap: wrap;
+}
+
+.services.column {
+  width: auto;
 }
 
 .service {
-  margin-top: 3.5rem;
+  margin: 5rem 0;
 }
 
 .service-card {
   width: 60rem;
+  margin-bottom: 10rem;
 }
 
 .service-name {
   display: flex;
   font-size: 2.5rem;
   margin-bottom: 2.5rem;
+  font-weight: 700;
+  border-bottom: 1px solid #efe3b8;
 }
 
 .column-container {
@@ -416,6 +429,6 @@ footer p {
   margin-left: auto;
 }
 
-.inline.price.second-column {
-  margin-left: 8rem;
+.book-button {
+  margin-top: 15rem;
 }
