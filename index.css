@@ -69,8 +69,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 20rem;
-  padding: 8rem 5rem;
+  padding: 2rem 2rem;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -361,7 +360,7 @@ footer p {
 /* services.html */
 
 .filling-header {
-  height: 18.5rem;
+  height: 16rem;
 }
 
 .service-container {
