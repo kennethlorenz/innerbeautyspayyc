@@ -70,8 +70,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 2rem;
+  width: 100%;
   position: fixed;
-  width: 100vw;
   top: 0;
   left: 0;
   z-index: 9999;
@@ -133,7 +133,7 @@ button {
   background-image: url(./images/hero-bg.png);
   background-size: cover;
   gap: 5rem;
-  height: 105rem;
+  height: 95rem;
   padding: 2rem;
 }
 
@@ -434,4 +434,28 @@ footer p {
 
 .book-button {
   margin-top: 15rem;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1174px) {
+  .links ul {
+    display: none;
+  }
+
+  img.brandLogo {
+    height: auto;
+    width: 30rem;
+    padding: 2.5rem;
+  }
+
+  .menuIcon {
+    display: unset;
+    width: 10rem;
+  }
+
+  .about-us.img,
+  .map {
+    display: none;
+  }
 }
