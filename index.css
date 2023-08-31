@@ -91,6 +91,7 @@ img.brandLogo {
 
 nav {
   display: flex;
+  margin-left: auto;
 }
 
 .links ul {
@@ -136,7 +137,7 @@ button {
   background-image: url(./images/hero-bg.png);
   background-size: cover;
   gap: 5rem;
-  height: 95rem;
+  height: 85rem;
   padding: 2rem;
 }
 
@@ -496,6 +497,23 @@ footer p {
     width: 10rem;
     cursor: pointer;
   }
+
+  /* Hero section */
+
+  .section.hero {
+    padding: 17.5rem 17.5rem 5rem 17.5rem;
+  }
+
+  .heroTag {
+    font-size: 10rem;
+    padding: 1.5rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+  }
+
+  /* about us */
 
   .about-us.img,
   .map {
