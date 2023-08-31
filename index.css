@@ -93,7 +93,7 @@ nav {
   display: flex;
 }
 
-ul {
+.links ul {
   display: flex;
   font-size: 2rem;
   gap: 2.5rem;
@@ -118,6 +118,9 @@ ul {
   width: 10rem;
 }
 
+.close {
+  display: none;
+}
 /* Hero Section */
 
 .hero,
@@ -439,8 +442,47 @@ footer p {
 /* media queries */
 
 @media only screen and (max-width: 1174px) {
+  /* header */
+  header {
+    padding: 0.8rem;
+  }
+  nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background: rgb(246, 240, 219);
+    flex-direction: column;
+    width: 50%;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .close {
+    display: unset;
+    height: auto;
+    width: 2.5rem;
+    margin: 2rem 2rem 2rem auto;
+  }
+
   .links ul {
-    display: none;
+    display: inline-block;
+    margin-top: 8rem;
+  }
+
+  .links ul a {
+    color: #695125;
+    padding: 0.75em 2em;
+    display: block;
+  }
+
+  .links ul a:hover {
+    background: rgb(202, 202, 202);
+  }
+
+  .nav-link:hover {
+    text-decoration: none;
   }
 
   img.brandLogo {
@@ -452,10 +494,17 @@ footer p {
   .menuIcon {
     display: unset;
     width: 10rem;
+    cursor: pointer;
   }
 
   .about-us.img,
   .map {
     display: none;
+  }
+
+  /* scrolling reset */
+  .scroll-down header,
+  .scroll-up header {
+    transform: unset;
   }
 }
