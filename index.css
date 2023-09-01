@@ -452,6 +452,11 @@ footer p {
     transform: unset;
   }
 
+  /* nav */
+  .open-nav {
+    transform: translateX(0%);
+  }
+
   /* header */
   header {
     padding: 0.8rem;
@@ -474,6 +479,7 @@ footer p {
     height: auto;
     width: 2.5rem;
     margin: 2rem 2rem 2rem auto;
+    cursor: pointer;
   }
 
   .links ul {
@@ -503,7 +509,7 @@ footer p {
 
   .menuIcon {
     display: unset;
-    width: 10rem;
+    width: 8.5rem;
     cursor: pointer;
   }
 
