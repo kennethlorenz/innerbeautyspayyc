@@ -51,8 +51,7 @@ html {
 
 /* set height for each section */
 .section {
-  height: auto;
-  padding: 15rem;
+  padding: 10rem;
 }
 
 .heading {
@@ -181,7 +180,7 @@ button:hover {
 
 .about-us.info,
 .about-us.img {
-  padding: 20rem 2.5rem;
+  padding: 10rem 2.5rem;
 }
 
 .about-us.text {
@@ -442,7 +441,17 @@ footer p {
 
 /* media queries */
 
-@media only screen and (max-width: 1174px) {
+@media only screen and (max-width: 1075px) {
+  .heading {
+    font-size: 5.5rem;
+  }
+
+  /* scrolling reset */
+  .scroll-down header,
+  .scroll-up header {
+    transform: unset;
+  }
+
   /* header */
   header {
     padding: 0.8rem;
@@ -520,9 +529,36 @@ footer p {
     display: none;
   }
 
-  /* scrolling reset */
-  .scroll-down header,
-  .scroll-up header {
-    transform: unset;
+  .about-us.text {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
+  /* client feedback */
+
+  .client-name {
+    font-size: 2.5rem;
+  }
+
+  .client-comment {
+    font-size: 1.7rem;
+  }
+
+  /* faq */
+  .question-card {
+    background-color: #b89e6f;
+    font-size: 2.2rem;
+  }
+}
+
+/* 680 break point */
+@media only screen and (max-width: 680px) {
+  /* contact-info */
+  .contact-info.card {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
   }
 }
