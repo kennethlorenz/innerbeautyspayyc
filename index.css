@@ -559,6 +559,35 @@ footer p {
 
 /* 680 break point */
 @media only screen and (max-width: 680px) {
+  /* our services */
+  .our-services-logo img {
+    height: auto;
+    width: 30rem;
+  }
+
+  .our-services.category {
+    font-size: 2.5rem;
+  }
+
+  .our-services.text {
+    font-size: 1.8rem;
+  }
+
+  /* client feedback */
+
+  .client-feedback.card {
+    height: 35rem;
+    width: 30rem;
+  }
+
+  .client-name {
+    font-size: 2.2rem;
+  }
+
+  .client-comment {
+    font-size: 1.5rem;
+  }
+
   /* contact-info */
   .contact-info.card {
     flex-direction: column;
