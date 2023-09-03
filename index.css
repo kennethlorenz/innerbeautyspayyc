@@ -157,7 +157,7 @@ button {
   font-size: 2rem;
   cursor: pointer;
   transition: background-color 1s;
-  padding: 2em 8em;
+  padding: 2rem 8rem;
 }
 
 button:hover {
@@ -571,6 +571,21 @@ footer p {
 
   .menuIcon {
     width: 4.5rem;
+  }
+
+  /* Hero section */
+
+  .section.hero {
+    padding: 10.5rem 10.5rem 5.5rem 10.5rem;
+    height: unset;
+  }
+  .heroTag {
+    font-size: 7.5rem;
+    padding: 1.5rem;
+  }
+
+  button {
+    font-size: 1.5rem;
   }
 
   /* our services */
