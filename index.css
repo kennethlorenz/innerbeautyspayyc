@@ -563,6 +563,9 @@ footer p {
 
 /* 680 break point */
 @media only screen and (max-width: 680px) {
+  .heading {
+    font-size: 3.5rem;
+  }
   /* header */
   img.brandLogo {
     width: 20rem;
@@ -588,18 +591,27 @@ footer p {
     font-size: 1.5rem;
   }
 
+  /* about us */
+
+  .about-us.info .heading {
+    text-align: center;
+  }
+  .about-us.text {
+    font-size: 1.8rem;
+  }
+
   /* our services */
   .our-services-logo img {
     height: auto;
-    width: 30rem;
+    width: 25rem;
   }
 
   .our-services.category {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .our-services.text {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   /* client feedback */
