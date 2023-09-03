@@ -513,6 +513,10 @@ footer p {
     cursor: pointer;
   }
 
+  .menu {
+    padding: 1rem;
+  }
+
   /* Hero section */
 
   .section.hero {
@@ -559,6 +563,16 @@ footer p {
 
 /* 680 break point */
 @media only screen and (max-width: 680px) {
+  /* header */
+  img.brandLogo {
+    width: 20rem;
+    padding: 1rem;
+  }
+
+  .menuIcon {
+    width: 4.5rem;
+  }
+
   /* our services */
   .our-services-logo img {
     height: auto;
