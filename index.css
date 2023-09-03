@@ -302,6 +302,7 @@ button:hover {
   padding: 1.5rem;
   text-align: start;
   margin-top: 9.5rem;
+  max-width: 125rem;
 }
 
 /* Contact us */
