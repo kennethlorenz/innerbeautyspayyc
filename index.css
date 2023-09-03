@@ -157,7 +157,7 @@ button {
   font-size: 2rem;
   cursor: pointer;
   transition: background-color 1s;
-  padding: 2rem 8rem;
+  padding: 2.5rem 15rem;
 }
 
 button:hover {
