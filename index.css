@@ -363,13 +363,10 @@ footer p {
 
 /* services.html */
 
-.filling-header {
-  height: 16rem;
-}
-
 .service-container {
   display: flex;
-  gap: 20rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .services {
@@ -379,27 +376,18 @@ footer p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: auto;
-  padding: 8rem;
-  flex-wrap: wrap;
-}
-
-.services.column {
-  width: auto;
-}
-
-.service {
-  margin: 5rem 0;
+  padding: 3.5rem;
+  padding-top: 22.5rem;
 }
 
 .service-card {
   width: 60rem;
-  margin-bottom: 10rem;
+  margin: 6.5rem;
 }
 
 .service-name {
   display: flex;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 2.5rem;
   font-weight: 700;
   border-bottom: 1px solid #efe3b8;
@@ -420,12 +408,15 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  font-size: 2.5rem;
+  border-left: solid 1px #efe3b8;
 }
 
 .services-list li {
   display: flex;
-  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   width: 57rem;
+  padding-left: 2rem;
 }
 
 .services-list li .prices {
@@ -437,7 +428,12 @@ footer p {
 }
 
 .book-button {
-  margin-top: 15rem;
+  text-align: center;
+}
+
+.book-button button:hover {
+  background: #efe3b8;
+  color: #695125;
 }
 
 /* media queries */
