@@ -414,7 +414,7 @@ footer p {
 .services-list li {
   display: flex;
   margin-bottom: 2.5rem;
-  width: 57rem;
+  max-width: 57rem;
   padding-left: 2rem;
 }
 
@@ -583,10 +583,6 @@ footer p {
     padding-left: 2rem;
   }
 
-  .services-list li .prices {
-    margin-left: auto;
-  }
-
   .inline.price.second-column {
     margin-left: 9rem;
   }
@@ -711,10 +707,6 @@ footer p {
     margin-bottom: -5rem;
   }
 
-  .services-list li .prices {
-    margin-left: auto;
-  }
-
   .inline.price.second-column {
     margin-left: 6rem;
   }
@@ -791,31 +783,42 @@ footer p {
   /* service.html */
   .service-card {
     margin: 4.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-name {
+    font-size: 1.4rem;
+    padding: 2rem 0;
+  }
+
+  .services-list {
+    font-size: 1.1rem;
+  }
+
+  .column-container {
+    margin-left: 8rem;
   }
 
   .book-button button {
     padding: 1rem 3rem;
-    max-width: 35rem;
+    max-width: auto;
   }
 
   .services-list li {
-    max-width: 35rem;
+    max-width: auto;
   }
 }
 
 @media only screen and (max-width: 375px) {
   /* service.html */
   .service-name {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .services-list {
-    font-size: 1.2rem;
-  }
-
-  .service-card {
-    /* change width */
-    max-width: 35rem;
+    font-size: 1.1rem;
   }
 
   .services-list li {
@@ -904,11 +907,12 @@ footer p {
 
   /* services.html */
   .service-name {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
+    display: flex;
   }
 
   .services-list {
-    font-size: 1.2rem;
+    font-size: 0.85rem;
   }
 
   .service-card {
