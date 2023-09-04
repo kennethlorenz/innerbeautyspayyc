@@ -725,6 +725,69 @@ footer p {
 }
 
 @media only screen and (max-width: 425px) {
+  .heading {
+    font-size: 3rem;
+  }
+
+  .section {
+    padding: 7.5rem;
+  }
+
+  /* Hero section */
+
+  .section.hero {
+    padding: 10.5rem 10.5rem 5.5rem 10.5rem;
+    height: unset;
+  }
+  .heroTag {
+    font-size: 7.5rem;
+    padding: 1.5rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+    padding: 1.5rem 6rem;
+  }
+
+  /* our services */
+  .our-services-logo img {
+    height: auto;
+    width: 22.5rem;
+  }
+
+  .our-services.category {
+    font-size: 2rem;
+  }
+
+  .our-services.text {
+    font-size: 1.4rem;
+  }
+
+  /* client feedback */
+
+  .client-feedback.card {
+    height: 30rem;
+    width: 28rem;
+  }
+
+  .client-name {
+    font-size: 2.2rem;
+  }
+
+  .client-comment {
+    font-size: 1.5rem;
+  }
+
+  /* faq */
+  .question-card {
+    font-size: 1.7rem;
+  }
+
+  /* contact-info */
+  .contact-info.card {
+    margin-top: 2.25rem;
+    font-size: 1.25rem;
+  }
   /* service.html */
   .service-card {
     margin: 4.5rem 0;
@@ -756,6 +819,85 @@ footer p {
 }
 
 @media only screen and (max-width: 320px) {
+  .heading {
+    font-size: 2.75rem;
+  }
+
+  .section {
+    padding: 5.5rem;
+  }
+
+  /* Hero section */
+
+  .section.hero {
+    padding: 10.5rem 10.5rem 5.5rem 10.5rem;
+    height: unset;
+  }
+  .heroTag {
+    font-size: 6.5rem;
+    padding: 1.5rem;
+  }
+
+  button {
+    font-size: 1.25rem;
+    padding: 1.5rem 6rem;
+  }
+
+  /* about-us */
+  .section.about-us {
+    padding: 5.5rem 2.5rem;
+  }
+
+  .about-us.info {
+    padding: unset;
+  }
+
+  .about-us.text {
+    font-size: 1.5rem;
+  }
+
+  /* our services */
+
+  .our-services-logo img {
+    height: auto;
+    width: 20rem;
+  }
+
+  .our-services.category {
+    font-size: 1.8rem;
+  }
+
+  .our-services.text {
+    font-size: 1.2rem;
+  }
+
+  /* client feedback */
+
+  .client-feedback.card {
+    height: 30rem;
+    width: 28rem;
+  }
+
+  .client-name {
+    font-size: 2.2rem;
+  }
+
+  .client-comment {
+    font-size: 1.5rem;
+  }
+
+  /* faq */
+  .question-card {
+    font-size: 1.7rem;
+  }
+
+  /* contact-info */
+  .contact-info.card {
+    margin-top: 2.25rem;
+    font-size: 1.25rem;
+  }
+
+  /* services.html */
   .service-name {
     font-size: 1.4rem;
   }
