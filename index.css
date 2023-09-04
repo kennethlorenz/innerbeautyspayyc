@@ -686,7 +686,6 @@ footer p {
 
   .service-name {
     font-size: 1.5rem;
-    color: red;
   }
 
   .services-list {
@@ -696,7 +695,7 @@ footer p {
   .service-card {
     margin: 4.5rem;
     /* change width */
-    max-width: 40rem;
+    max-width: 38rem;
   }
 
   .column-container {
@@ -704,7 +703,7 @@ footer p {
   }
 
   .services-list li {
-    max-width: 37rem;
+    max-width: 35rem;
     padding-left: 2rem;
   }
 
@@ -796,6 +795,11 @@ footer p {
 
   .book-button button {
     padding: 1rem 3rem;
+    max-width: 35rem;
+  }
+
+  .services-list li {
+    max-width: 35rem;
   }
 }
 
