@@ -686,6 +686,7 @@ footer p {
 
   .service-name {
     font-size: 1.5rem;
+    color: red;
   }
 
   .services-list {
