@@ -555,6 +555,45 @@ footer p {
     background-color: #b89e6f;
     font-size: 2.2rem;
   }
+
+  /* services .html */
+  .services {
+    padding-top: 17rem;
+  }
+
+  .service-name {
+    font-size: 2.4rem;
+  }
+
+  .services-list {
+    font-size: 2rem;
+  }
+
+  .service-card {
+    margin: 4.5rem;
+    /* change width */
+  }
+
+  .column-container {
+    margin-left: auto;
+  }
+
+  .services-list li {
+    width: 57rem;
+    padding-left: 2rem;
+  }
+
+  .services-list li .prices {
+    margin-left: auto;
+  }
+
+  .inline.price.second-column {
+    margin-left: 9rem;
+  }
+
+  .book-button button {
+    padding: 2rem 10rem;
+  }
 }
 
 /* 680 break point */
@@ -637,5 +676,100 @@ footer p {
     text-align: center;
     margin-top: 2.5rem;
     font-size: 1.5rem;
+  }
+
+  /* services.html */
+
+  .services {
+    padding-top: 10rem;
+  }
+
+  .service-name {
+    font-size: 1.5rem;
+  }
+
+  .services-list {
+    font-size: 1.3rem;
+  }
+
+  .service-card {
+    margin: 4.5rem;
+    /* change width */
+    max-width: 40rem;
+  }
+
+  .column-container {
+    margin-left: auto;
+  }
+
+  .services-list li {
+    max-width: 37rem;
+    padding-left: 2rem;
+  }
+
+  .service.column {
+    margin-bottom: -5rem;
+  }
+
+  .services-list li .prices {
+    margin-left: auto;
+  }
+
+  .inline.price.second-column {
+    margin-left: 6rem;
+  }
+
+  .book-button {
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  /* service.html */
+  .service-card {
+    margin: 4.5rem 0;
+  }
+
+  .book-button button {
+    padding: 1rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* service.html */
+  .service-name {
+    font-size: 1.5rem;
+  }
+
+  .services-list {
+    font-size: 1.2rem;
+  }
+
+  .service-card {
+    /* change width */
+    max-width: 35rem;
+  }
+
+  .services-list li {
+    max-width: 32rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .service-name {
+    font-size: 1.4rem;
+  }
+
+  .services-list {
+    font-size: 1.2rem;
+  }
+
+  .service-card {
+    /* change width */
+    max-width: 30rem;
+  }
+
+  .services-list li {
+    max-width: 27rem;
   }
 }
