@@ -136,8 +136,7 @@ button {
   background-image: url(./images/hero-bg.png);
   background-size: cover;
   gap: 5rem;
-  height: 85rem;
-  padding: 2rem;
+  padding: 30rem 30rem 15rem 30rem;
 }
 
 .heroTag {
