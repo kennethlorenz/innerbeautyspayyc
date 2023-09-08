@@ -928,4 +928,7 @@ footer p {
     /* change width */
     max-width: 30rem;
   }
+  .services-list li {
+    max-width: 20rem;
+  }
 }
