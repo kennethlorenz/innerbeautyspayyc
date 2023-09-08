@@ -821,6 +821,10 @@ footer p {
 }
 
 @media only screen and (max-width: 375px) {
+  /* nav links */
+  .links ul {
+    font-size: 1.5rem;
+  }
   /* service.html */
   .service-name {
     font-size: 1.25rem;
