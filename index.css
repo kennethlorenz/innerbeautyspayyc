@@ -688,6 +688,10 @@ footer p {
     font-size: 1.5rem;
   }
 
+  .sub-heading {
+    font-size: 1.25rem;
+  }
+
   .services-list {
     font-size: 1.3rem;
   }
@@ -795,6 +799,7 @@ footer p {
   .service-name {
     font-size: 1.4rem;
     padding: 2rem 0;
+    margin-bottom: 1rem;
   }
 
   .services-list {
@@ -811,7 +816,7 @@ footer p {
   }
 
   .services-list li {
-    max-width: auto;
+    max-width: 25rem;
   }
 }
 
@@ -825,8 +830,8 @@ footer p {
     font-size: 1.1rem;
   }
 
-  .services-list li {
-    max-width: 32rem;
+  .sub-heading {
+    font-size: 1rem;
   }
 }
 
@@ -922,9 +927,5 @@ footer p {
   .service-card {
     /* change width */
     max-width: 30rem;
-  }
-
-  .services-list li {
-    max-width: 27rem;
   }
 }
