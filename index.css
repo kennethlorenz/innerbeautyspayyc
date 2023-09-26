@@ -439,6 +439,10 @@ footer p {
   color: #695125;
 }
 
+.book {
+  display: none;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 1075px) {
