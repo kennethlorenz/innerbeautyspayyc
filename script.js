@@ -1,7 +1,8 @@
 // Scroll function
 const body = document.body;
-
 let lastScroll = 0;
+
+const bookButton = document.querySelector(".book");
 
 window.addEventListener("scroll", () => {
   const currentScroll = window.scrollY;
@@ -26,6 +27,17 @@ window.addEventListener("scroll", () => {
 
 document.querySelector(".currentYear").textContent = new Date().getFullYear();
 
+function displayWindowSize() {
+  let width = window.innerWidth;
+  let height = window.innerHeight;
+  if (width <= 1075) {
+    bookButton.style.display = "unset";
+  } else if (width > 1000) {
+    bookButton.style.display = "none";
+  }
+  console.log(`${width} + ${height}`);
+}
+
 // nav
 const menu = document.querySelector(".menuIcon");
 const close = document.querySelector(".close");
@@ -38,3 +50,10 @@ menu.addEventListener("click", () => {
 close.addEventListener("click", () => {
   nav.classList.remove("open-nav");
 });
+
+window.onload = () => {
+  displayWindowSize();
+};
+window.onresize = () => {
+  displayWindowSize();
+};
