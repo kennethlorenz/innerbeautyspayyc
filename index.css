@@ -310,7 +310,6 @@ button:hover {
 .section.faq .questions {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
 }
 
 .question-card {
@@ -323,6 +322,43 @@ button:hover {
   flex-direction: column;
   gap: 1rem;
   border-radius: 1rem;
+  position: relative;
+  margin: 10px 20px;
+}
+
+.question-card .question {
+  position: relative;
+  padding: 1rem;
+  background: #b89e6f;
+  color: black;
+  cursor: pointer;
+}
+
+.question-card .question::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  font-size: 4rem;
+}
+
+.question-card.active .question::before {
+  content: "-";
+}
+
+.question-card .answer {
+  position: relative;
+  background: #b89e6f;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  padding: 0;
+}
+
+.question-card.active .answer {
+  height: min-content;
+  padding: 1rem;
 }
 
 /* Contact us */
@@ -340,6 +376,10 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.contact-us .map iframe {
+  border-radius: 1rem;
 }
 
 .contact-info.card {

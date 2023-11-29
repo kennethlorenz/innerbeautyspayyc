@@ -38,6 +38,16 @@ close.addEventListener("click", () => {
   nav.classList.remove("open-nav");
 });
 
+// accordion
+
+const accordion = document.getElementsByClassName("question-card");
+
+for (i = 0; i < accordion.length; i++) {
+  accordion[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+  });
+}
+
 window.onload = () => {
   displayWindowSize();
 };
