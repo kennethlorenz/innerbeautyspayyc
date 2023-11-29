@@ -140,7 +140,7 @@ button {
 }
 
 .heroTag {
-  font-size: 15rem;
+  font-size: 13rem;
   padding: 2.5rem;
 }
 
@@ -171,6 +171,7 @@ button:hover {
   color: #fffcf0;
   justify-content: space-around;
   padding: 0 5rem;
+  align-items: center;
 }
 
 .about-us.info {
@@ -185,6 +186,11 @@ button:hover {
 .about-us.text {
   font-size: 2.5rem;
   margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  word-spacing: 0.25rem;
+  line-height: 4rem;
 }
 
 .about-us img {
@@ -202,6 +208,7 @@ button:hover {
   color: #695125;
   flex-direction: column;
   text-align: center;
+  padding: 5rem 0;
 }
 
 .our-services-categories {
@@ -213,7 +220,7 @@ button:hover {
 
 .our-services-logo img {
   height: auto;
-  width: 45rem;
+  width: 35rem;
 }
 
 .our-services.info {
@@ -225,9 +232,12 @@ button:hover {
 }
 
 .our-services.text {
+  margin-top: 2rem;
   font-size: 2rem;
-  margin: 2.5rem auto;
-  width: 30rem;
+  width: 50rem;
+  word-spacing: 0.25rem;
+  line-height: 4rem;
+  text-align: center;
 }
 
 /* client feedback */
