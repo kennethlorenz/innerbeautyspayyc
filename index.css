@@ -315,7 +315,7 @@ button:hover {
   margin: 1rem 2rem;
   background-color: #efe3b8;
   color: #695125;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border-radius: 1rem;
 }
 
@@ -792,9 +792,13 @@ footer p {
 
   /* client feedback */
 
+  .section.client-feedback {
+    padding: 3.5rem;
+  }
+
   .client-feedback.card {
-    height: 35rem;
-    width: 30rem;
+    height: 30rem;
+    width: 25rem;
   }
 
   .client-name {
@@ -808,9 +812,11 @@ footer p {
   /* faq */
   .question-card {
     font-size: 1.7rem;
+    min-width: 25rem;
   }
 
-  .question-card .question {
+  .question-card .question,
+  .question-card .answer {
     font-size: 1rem;
   }
 
