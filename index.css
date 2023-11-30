@@ -215,7 +215,8 @@ button:hover {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
-  justify-content: center;
+  gap: 8rem;
+  padding: 2rem;
 }
 
 .our-services-logo img {
@@ -234,7 +235,7 @@ button:hover {
 .our-services.text {
   margin-top: 2rem;
   font-size: 2rem;
-  width: 50rem;
+  max-width: 50rem;
   word-spacing: 0.25rem;
   line-height: 4rem;
   text-align: center;
