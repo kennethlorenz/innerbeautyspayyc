@@ -395,7 +395,7 @@ button:hover {
   color: #efe3b8;
 }
 
-.contact-info.card.hover :hover {
+.contact-info.card.hover:hover {
   text-decoration: underline;
 }
 
