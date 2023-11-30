@@ -232,15 +232,15 @@ button:hover {
   width: max-content;
 }
 
-.our-services.card.left {
+.our-services.card.right {
   grid-template-areas: "left right";
 }
 
-.our-services.card.left .our-services-logo {
+.our-services.card.right .our-services-logo {
   grid-area: right;
 }
 
-.our-services.card.left .our-services.info {
+.our-services.card.right .our-services.info {
   text-align: right;
   justify-self: right;
 }
