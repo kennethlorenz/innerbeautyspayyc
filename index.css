@@ -49,9 +49,29 @@ html {
   text-decoration: none;
 }
 
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
 /* set height for each section */
 .section {
   padding: 10rem;
+  min-height: 100vh;
 }
 
 .heading {
