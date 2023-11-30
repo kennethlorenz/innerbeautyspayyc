@@ -215,7 +215,6 @@ button:hover {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
-  gap: 1rem;
   padding: 2rem;
   justify-content: center;
 }
@@ -621,22 +620,25 @@ footer p {
   /* services */
   .our-services.card {
     display: unset;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: unset;
     align-items: center;
     gap: 15rem;
-    text-align: center;
   }
 
   .our-services.card .our-services.info {
     text-align: center;
-    width: max-content;
+    width: unset;
   }
 
-  .our-services.card.left .our-services-logo {
-    grid-area: center;
+  .our-services.card.right {
+    grid-template-areas: unset;
   }
 
-  .our-services.card.left .our-services.info {
+  .our-services.card.right .our-services-logo {
+    grid-area: unset;
+  }
+
+  .our-services.card.right .our-services.info {
     text-align: center;
     justify-self: center;
   }
