@@ -357,6 +357,8 @@ button:hover {
   background: #b89e6f;
   color: black;
   cursor: pointer;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .question-card .question::before {
