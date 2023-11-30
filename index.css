@@ -215,13 +215,39 @@ button:hover {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
-  gap: 8rem;
+  gap: 1rem;
   padding: 2rem;
+  justify-content: center;
+}
+
+.our-services.card {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  gap: 15rem;
+}
+
+.our-services.card .our-services.info {
+  text-align: left;
+  width: max-content;
+}
+
+.our-services.card.left {
+  grid-template-areas: "left right";
+}
+
+.our-services.card.left .our-services-logo {
+  grid-area: right;
+}
+
+.our-services.card.left .our-services.info {
+  text-align: right;
+  justify-self: right;
 }
 
 .our-services-logo img {
   height: auto;
-  width: 35rem;
+  width: 45rem;
 }
 
 .our-services.info {
@@ -238,7 +264,6 @@ button:hover {
   max-width: 50rem;
   word-spacing: 0.25rem;
   line-height: 4rem;
-  text-align: center;
 }
 
 /* client feedback */
@@ -592,6 +617,28 @@ footer p {
 
   button {
     font-size: 1.5rem;
+  }
+  /* services */
+  .our-services.card {
+    display: unset;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    gap: 15rem;
+    text-align: center;
+  }
+
+  .our-services.card .our-services.info {
+    text-align: center;
+    width: max-content;
+  }
+
+  .our-services.card.left .our-services-logo {
+    grid-area: center;
+  }
+
+  .our-services.card.left .our-services.info {
+    text-align: center;
+    justify-self: center;
   }
 
   /* about us */
