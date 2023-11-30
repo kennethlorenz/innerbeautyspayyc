@@ -156,6 +156,7 @@ button {
   background-size: cover;
   gap: 5rem;
   padding: 20rem 30rem 15rem 30rem;
+  height: 80vh;
 }
 
 .heroTag {
@@ -316,6 +317,14 @@ button:hover {
   color: #695125;
   justify-content: space-between;
   border-radius: 1rem;
+}
+
+.client-feedbacks .client:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.client-feedbacks .client:nth-child(3) {
+  transition-delay: 400ms;
 }
 
 .client-feedback.card .google-logo {
