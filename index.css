@@ -773,7 +773,7 @@ footer p {
     text-align: center;
   }
   .about-us.text {
-    font-size: 1.8rem;
+    font-size: 1.25rem;
   }
 
   /* our services */
@@ -808,6 +808,14 @@ footer p {
   /* faq */
   .question-card {
     font-size: 1.7rem;
+  }
+
+  .question-card .question {
+    font-size: 1rem;
+  }
+
+  .question-card .question::before {
+    font-size: 2rem;
   }
 
   /* contact-info */
