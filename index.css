@@ -525,6 +525,25 @@ footer p {
   font-weight: 700;
 }
 
+.sub-name {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.sub-service {
+  margin-bottom: 8rem;
+}
+
+.sub-service:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lash-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
 .sub-heading {
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -551,7 +570,7 @@ footer p {
 
 .services-list li {
   display: flex;
-  margin-bottom: 2.5rem;
+  margin: 2rem 0;
   width: 57rem;
   padding-left: 2rem;
 }
