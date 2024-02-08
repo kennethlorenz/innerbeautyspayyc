@@ -52,7 +52,6 @@ for (i = 0; i < accordion.length; i++) {
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
     }
