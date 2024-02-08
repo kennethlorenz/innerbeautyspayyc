@@ -4,7 +4,6 @@ let lastScroll = 0;
 
 window.addEventListener("scroll", () => {
   const currentScroll = window.scrollY;
-  console.log(currentScroll);
 
   if (currentScroll <= 0) {
     body.classList.remove("scroll-up");
