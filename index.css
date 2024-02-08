@@ -762,7 +762,9 @@ footer p {
     font-size: 2.4rem;
   }
 
-  .services-list {
+  .services-list,
+  .sub-service .lashes,
+  .sub-service {
     font-size: 2rem;
   }
 
@@ -899,7 +901,9 @@ footer p {
     font-size: 1.25rem;
   }
 
-  .services-list {
+  .services-list,
+  .sub-service .lashes,
+  .sub-service {
     font-size: 1.3rem;
   }
 
@@ -1009,7 +1013,9 @@ footer p {
     margin-bottom: 1rem;
   }
 
-  .services-list {
+  .services-list,
+  .sub-service .lashes,
+  .sub-service {
     font-size: 1.1rem;
   }
 
@@ -1037,7 +1043,9 @@ footer p {
     font-size: 1.25rem;
   }
 
-  .services-list {
+  .services-list,
+  .sub-service .lashes,
+  .sub-service {
     font-size: 1.1rem;
   }
 
@@ -1131,7 +1139,9 @@ footer p {
     display: flex;
   }
 
-  .services-list {
+  .services-list,
+  .sub-service .lashes,
+  .sub-service {
     font-size: 0.85rem;
   }
 
