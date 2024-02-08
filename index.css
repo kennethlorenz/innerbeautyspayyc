@@ -75,7 +75,7 @@ html {
 }
 
 .heading {
-  font-size: 7.5rem;
+  font-size: 5.5rem;
 }
 /* Set background color */
 header {
@@ -510,7 +510,7 @@ footer p {
   justify-content: flex-start;
   align-items: center;
   padding: 3.5rem;
-  padding-top: 22.5rem;
+  padding-top: 15.5rem;
 }
 
 .service-card {
