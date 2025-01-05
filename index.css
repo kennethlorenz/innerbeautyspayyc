@@ -616,6 +616,48 @@ footer p {
   color: #695125;
 }
 
+/* contact.html styles */
+#contact {
+  background-color: #695125;
+  font-family: "Monsterrat", sans-serif;
+}
+
+#contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  margin-left: 5rem;
+  gap: 6rem;
+  height: 100vh;
+}
+
+#contact-content div {
+  display: flex;
+  align-items: center;
+  width: 60rem;
+  gap: 2rem;
+  color: #efe3b8;
+}
+
+#contact-content div i {
+  font-size: 5rem;
+}
+
+#contact-content div p {
+  font-size: 2rem;
+}
+
+#contact #contact-footer {
+  position: relative;
+  margin-top: -5rem;
+  /* negative value of footer height */
+  height: 5rem;
+  clear: both;
+  background-color: #efe3b8;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 1075px) {
@@ -798,6 +840,25 @@ footer p {
   .book-button button {
     padding: 2rem 10rem;
   }
+
+  #contact-content {
+    padding-top: 5rem;
+    margin-left: 5rem;
+    gap: 6rem;
+  }
+
+  #contact-content div {
+    width: 50rem;
+    gap: 2rem;
+  }
+
+  #contact-content div i {
+    font-size: 4rem;
+  }
+
+  #contact-content div p {
+    font-size: 1.7rem;
+  }
 }
 
 /* 680 break point */
@@ -941,6 +1002,24 @@ footer p {
 
   .book-button {
     margin-bottom: 5rem;
+  }
+  #contact-content {
+    padding-top: unset;
+    margin-left: 5rem;
+    gap: 6rem;
+  }
+
+  #contact-content div {
+    width: 50rem;
+    gap: 2rem;
+  }
+
+  #contact-content div i {
+    font-size: 4rem;
+  }
+
+  #contact-content div p {
+    font-size: 1.7rem;
   }
 }
 
