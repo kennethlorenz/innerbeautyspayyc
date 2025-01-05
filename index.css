@@ -1122,6 +1122,24 @@ footer p {
   .services-list li {
     max-width: 25rem;
   }
+  #contact-content {
+    padding-top: unset;
+    margin-left: unset;
+    gap: 6rem;
+  }
+
+  #contact-content div {
+    width: 30rem;
+    gap: 2rem;
+  }
+
+  #contact-content div i {
+    font-size: 2rem;
+  }
+
+  #contact-content div p {
+    font-size: 1.3rem;
+  }
 }
 
 @media only screen and (max-width: 375px) {
